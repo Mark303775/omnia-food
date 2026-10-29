@@ -1,0 +1,13 @@
+{
+  "name": "omnifood",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Omnifood landing page styled with Tailwind CSS",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./css/tailwind.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./css/tailwind.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
